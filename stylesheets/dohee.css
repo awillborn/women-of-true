@@ -8,7 +8,7 @@
 }
 
 
-ul {
+.main ul {
 	padding: 0;
 	list-style-type: none;
 	margin-top: 30px;
@@ -24,50 +24,88 @@ li {
 h1.name {
 	font-family: Lato, sans-serif;
 	font-size: 1.25em;
+	color: slategrey;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 5px;
-	padding-left: 65px;
 	margin: 0;
 
 }
 
 .intro {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background-color: yellow;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	background-color: mintcream;
 
+}
+
+.nav li {
+	padding: 0 65px 0 65px;
+		font-family: Lato, sans-serif;
+	font-size: .75em;
+	color: slategrey;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.monthLabel {
+	padding-top: 100px;
 }
 
 .month {
 /*Styles month headers*/
-	padding: 50px 0px 50px 65px;
+	padding: 10px 30px 10px 30px;
 	font-size: 1em;
 	font-family: Lato, sans-serif; 
 	font-weight: 700;
 	letter-spacing: 5px;
+	color: mintcream;
+	background-color: #f26c39;
+	border-style: solid;
+	border-left: 2px;
+	border-top: 2px;
+	border-color: mintcream;
+
+
+	display:inline-block;
+	/*margin-left: 65px;
+	width: 168px;*/
+
+
 }
 
 .main {
 	padding: none;
 	margin: none;
-	background-color: snow;
+	background-color: #DE6DA5;
 }
 
 
 .goal {
-	padding: 50px;
+	padding: 40px 50px 50px 50px;
 	background-color: none;
 	min-height: 250px;
+	max-height: 250px;
+	overflow: hidden;
+	color: mintcream;
+
 
 
 }
-h2 {
+
+
+.goal h2 {
 /*Styles goal headers*/	
-	font-size: 4em;
+	font-family: 'Playfair display', serif;
+	font-size: 3em;
+	padding-bottom: 10px;
 	overflow: hidden;
 }
 
+.goal p{
+	font-family: 'Playfair display', serif;
+}
 
 
 /*.equal, .equal > div[class*='col-'] {  
